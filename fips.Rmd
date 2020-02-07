@@ -1,0 +1,16 @@
+---
+title: "assignment03"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=TRUE}
+library(tidyverse)
+fips <- read_csv(file="fips.csv")
+summary(fips)
+```
